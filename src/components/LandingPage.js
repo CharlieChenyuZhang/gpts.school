@@ -148,7 +148,7 @@ const RightFeatureContainer = styled.div`
 
 const LandingPage = () => {
   useEffect(() => {
-    document.getElementsByTagName("title")[0].text = "Virtual Language Tutor";
+    document.getElementsByTagName("title")[0].text = "learn with GPTs";
   });
 
   return (
