@@ -1,0 +1,62 @@
+{
+  "name": "virtual-assistant-gpt",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@auth0/auth0-react": "^2.0.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@google-cloud/text-to-speech": "^4.2.0",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.9",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.3.4",
+    "clsx": "^1.2.1",
+    "microsoft-cognitiveservices-speech-sdk": "^1.25.0",
+    "mui-treasury": "^0.1.5-alpha.3",
+    "node-libcurl": "^3.0.0",
+    "openai": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-photo-album": "^2.0.3",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "5.0.1",
+    "react-speech-recognition": "^3.10.0",
+    "react-twitter-embed": "^4.0.4",
+    "speak-tts": "^2.0.8",
+    "styled-components": "^5.3.6",
+    "typewriter-effect": "^2.19.0",
+    "web-speech-cognitive-services": "^7.1.3",
+    "web-vitals": "^2.1.4",
+    "yet-another-react-lightbox": "^3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "twitter": "node ./src/APIs/recent_search.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "https://j9xb399hhb.us-east-1.awsapprunner.com"
+}
