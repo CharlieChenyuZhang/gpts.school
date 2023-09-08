@@ -164,7 +164,7 @@ const LandingPage = () => {
             One Mentor, One Student: A New Paradigm for Equitable AI and CS
             Education
           </SecondPhrase>
-          <Button href="https://forms.gle/YETzBpsfWfhxeow89" target="_blank">
+          <Button href="https://forms.gle/L9furstJv692J8Rf7" target="_blank">
             join waitlist
           </Button>
         </WaitListContainer>
@@ -211,7 +211,7 @@ const LandingPage = () => {
       </FeatureContainer>
       <SocialContainer>
         Join now and get ready to revolutionize the way you learn!
-        <Button href="https://forms.gle/YETzBpsfWfhxeow89" target="_blank">
+        <Button href="https://forms.gle/L9furstJv692J8Rf7" target="_blank">
           join waitlist
         </Button>
       </SocialContainer>
