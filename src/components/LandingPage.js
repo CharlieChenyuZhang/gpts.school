@@ -176,7 +176,7 @@ const LandingPage = () => {
         <FeatureInnerContainer className="container">
           <LeftFeatureDescription>
             <div>
-              <Icon src={icon1}></Icon>
+              <Icon src={icon2}></Icon>
             </div>
             Oral Skills
             <SubCaption>
@@ -187,7 +187,7 @@ const LandingPage = () => {
 
           <LeftFeatureDescription>
             <div>
-              <Icon src={icon2}></Icon>
+              <Icon src={icon1}></Icon>
             </div>
             Coding Skills
             <SubCaption>
