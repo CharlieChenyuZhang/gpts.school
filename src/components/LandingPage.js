@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
-import logo from "../assets/chenyu-cali.png";
+// import logo from "../assets/chenyu-cali.png";
+// import logo from "../assets/gptsschool-logo2.png";
+// import logo from "../assets/gptsschool-svg.svg";
+// import logo from "../assets/gptsschool-noeffect.svg";
 import icon1 from "../assets/icons8-adjust-48.png";
 import icon2 from "../assets/icons8-communication-48.png";
 import icon3 from "../assets/icons8-google-translate-48.png";
@@ -42,6 +45,7 @@ const Icon = styled.img`
 `;
 
 const H1 = styled.h1`
+  font-family: "Playlist-Script";
   font-size: 3.75rem;
   line-height: 1;
   font-weight: 700;
@@ -150,17 +154,15 @@ const LandingPage = () => {
   return (
     <div>
       <div className="container">
-        <Header>
+        {/* <Header>
           <Logo src={logo} alt="listening"></Logo>
-        </Header>
+        </Header> */}
 
         <WaitListContainer>
-          <H1>
-            Revolutionize your language learning with AI-powered language coach.
-          </H1>
+          <H1>gpts.school</H1>
           <SecondPhrase>
-            Join us today and start your journey towards mastering a new
-            language!
+            One Mentor, One Student: A New Paradigm for Equitable AI and CS
+            Education
           </SecondPhrase>
           <Button href="https://forms.gle/YETzBpsfWfhxeow89" target="_blank">
             join waitlist
@@ -176,11 +178,10 @@ const LandingPage = () => {
             <div>
               <Icon src={icon1}></Icon>
             </div>
-            personalized learning
+            Oral Skills
             <SubCaption>
-              It adapts to your learning style and pace, providing personalized
-              exercises and feedback to help achieve your language learning
-              goals, regardless of your level.
+              Our AI tunes to your accent, improving your spoken skills through
+              real-time chats. Ideal for non-natives.
             </SubCaption>
           </LeftFeatureDescription>
 
@@ -188,20 +189,20 @@ const LandingPage = () => {
             <div>
               <Icon src={icon2}></Icon>
             </div>
-            highly interactive
+            Coding Skills
             <SubCaption>
-              It engages you in natural and dynamic conversations, improving
-              your language skills in real-world situations.
+              Custom exercises and guides refine your coding and algorithm
+              skills, prepping you for tech interviews.
             </SubCaption>
           </LeftFeatureDescription>
           <LeftFeatureDescription>
             <div>
               <Icon src={icon3}></Icon>
             </div>
-            multilingual support
+            Academic Skills
             <SubCaption>
-              It supports a wide range of languages, including English, Spanish,
-              French, German, Chinese, Japanese, and many more.
+              24/7 AI answers course-based questions and a dashboard reveals
+              classroom gaps for teachers.
             </SubCaption>
           </LeftFeatureDescription>
 
