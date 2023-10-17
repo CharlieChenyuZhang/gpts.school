@@ -178,10 +178,11 @@ const LandingPage = () => {
             <div>
               <Icon src={icon2}></Icon>
             </div>
-            Oral Skills
+            AI-Powered Education Tool
             <SubCaption>
-              Our AI tunes to your accent, improving your spoken skills through
-              real-time chats. Ideal for non-natives.
+              Unlock success in tech interviews with an AI-powered tool that
+              enhances your practice efficiency in coding questions, paving the
+              way for remarkable performance.
             </SubCaption>
           </LeftFeatureDescription>
 
@@ -189,20 +190,22 @@ const LandingPage = () => {
             <div>
               <Icon src={icon1}></Icon>
             </div>
-            Coding Skills
+            Personalized AI Agent
             <SubCaption>
-              Custom exercises and guides refine your coding and algorithm
-              skills, prepping you for tech interviews.
+              Experience a bespoke learning journey with an AI Agent and Study
+              Buddy that seamlessly adapts to your learning habits, ensuring
+              accelerated mastery over any subject.
             </SubCaption>
           </LeftFeatureDescription>
           <LeftFeatureDescription>
             <div>
               <Icon src={icon3}></Icon>
             </div>
-            Academic Skills
+            Mastering CS & AI Literacy
             <SubCaption>
-              24/7 AI answers course-based questions and a dashboard reveals
-              classroom gaps for teachers.
+              Commandeer your success in tech with a tool specifically crafted
+              to bolster your literacy in pivotal domains such as Computer
+              Science and Artificial Intelligence.
             </SubCaption>
           </LeftFeatureDescription>
 
