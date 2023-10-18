@@ -3,7 +3,7 @@ import styled from "styled-components";
 import icon1 from "../assets/icons8-adjust-48.png";
 import icon2 from "../assets/icons8-communication-48.png";
 import icon3 from "../assets/icons8-google-translate-48.png";
-import thinkdifferent from "../assets/think-different.jpeg";
+import thinkdifferent from "../assets/think-different-wallpapers.png";
 
 const WaitListContainer = styled.div`
   width: 100%;
