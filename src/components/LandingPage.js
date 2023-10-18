@@ -3,7 +3,7 @@ import styled from "styled-components";
 import icon1 from "../assets/icons8-adjust-48.png";
 import icon2 from "../assets/icons8-communication-48.png";
 import icon3 from "../assets/icons8-google-translate-48.png";
-import ThinkDifferent from "../assets/think-different.jpeg";
+import thinkdifferent from "../assets/think-different.jpeg";
 
 const WaitListContainer = styled.div`
   width: 100%;
@@ -185,7 +185,7 @@ const LandingPage = () => {
         </FeatureInnerContainer>
       </FeatureContainer>
       <ThinkDifferentImg
-        src={ThinkDifferent}
+        src={thinkdifferent}
         alt="think different"
       ></ThinkDifferentImg>
       <SocialContainer>
