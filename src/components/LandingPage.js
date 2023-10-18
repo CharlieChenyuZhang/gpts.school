@@ -1,12 +1,9 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
-// import logo from "../assets/chenyu-cali.png";
-// import logo from "../assets/gptsschool-logo2.png";
-// import logo from "../assets/gptsschool-svg.svg";
-// import logo from "../assets/gptsschool-noeffect.svg";
 import icon1 from "../assets/icons8-adjust-48.png";
 import icon2 from "../assets/icons8-communication-48.png";
 import icon3 from "../assets/icons8-google-translate-48.png";
+import ThinkDifferent from "../assets/think-different.jpeg";
 
 const WaitListContainer = styled.div`
   width: 100%;
@@ -18,24 +15,10 @@ const WaitListContainer = styled.div`
   text-align: center;
   align-items: center;
 `;
-const RightContainer = styled.div`
-  width: 50%;
-  background-color: #fbfcfc;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
 
-const Header = styled.div`
-  margin-top: 3rem;
-`;
-
-const Logo = styled.img`
-  width: 6rem;
-  height: 4rem;
-  /* position: fixed; */
+const ThinkDifferentImg = styled.img`
+  width: 100%;
+  padding-top: 8rem;
 `;
 
 const Icon = styled.img`
@@ -154,23 +137,14 @@ const LandingPage = () => {
   return (
     <div>
       <div className="container">
-        {/* <Header>
-          <Logo src={logo} alt="listening"></Logo>
-        </Header> */}
-
         <WaitListContainer>
           <H1>gpts.school</H1>
-          <SecondPhrase>
-            One Mentor, One Student: A New Paradigm for Equitable AI and CS
-            Education
-          </SecondPhrase>
+          <SecondPhrase>Revolutionizing Education</SecondPhrase>
+          {/* An AI Agent dedicated to fostering personalized learning journeys, beginning with Computer Science literacy and preparation for software engineering coding interviews. */}
           <Button href="https://forms.gle/L9furstJv692J8Rf7" target="_blank">
             join waitlist
           </Button>
         </WaitListContainer>
-        {/* <RightContainer>
-        <InteractiveUI />
-      </RightContainer> */}
       </div>
       <FeatureContainer>
         <FeatureInnerContainer className="container">
@@ -208,12 +182,14 @@ const LandingPage = () => {
               Science and Artificial Intelligence.
             </SubCaption>
           </LeftFeatureDescription>
-
-          {/* <RightFeatureContainer>card view</RightFeatureContainer> */}
         </FeatureInnerContainer>
       </FeatureContainer>
+      <ThinkDifferentImg
+        src={ThinkDifferent}
+        alt="think different"
+      ></ThinkDifferentImg>
       <SocialContainer>
-        Join now and get ready to revolutionize the way you learn!
+        Join us now, and get ready to revolutionize the way we learn!
         <Button href="https://forms.gle/L9furstJv692J8Rf7" target="_blank">
           join waitlist
         </Button>
