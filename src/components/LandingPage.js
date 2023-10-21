@@ -10,7 +10,7 @@ const WaitListContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding-top: 7rem;
-  padding-bottom: 8rem;
+  padding-bottom: 7rem;
   /* justify-content: center; */
   text-align: center;
   align-items: center;
@@ -152,6 +152,7 @@ const LandingPage = () => {
               // height="315"
               style={{
                 maxWidth: "560px",
+                minHeight: "315px",
                 width: "100%",
                 height: "100%",
               }}
