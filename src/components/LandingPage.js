@@ -125,8 +125,9 @@ const SubCaption = styled.div`
   font-size: 1.1rem;
 `;
 
-const RightFeatureContainer = styled.div`
-  width: 80%;
+const VideoContainer = styled.div`
+  margin-top: 34px;
+  width: 100%;
 `;
 
 const LandingPage = () => {
@@ -144,6 +145,23 @@ const LandingPage = () => {
           <Button href="https://forms.gle/L9furstJv692J8Rf7" target="_blank">
             join waitlist
           </Button>
+          {/* embeded youtube video */}
+          <VideoContainer>
+            <iframe
+              // width="560"
+              // height="315"
+              style={{
+                maxWidth: "560px",
+                width: "100%",
+                height: "100%",
+              }}
+              src="https://www.youtube.com/embed/hELcVJdsL0U?si=1WHQt8b8yk7z7clS"
+              title="GPTS.school think different"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </VideoContainer>
         </WaitListContainer>
       </div>
       <FeatureContainer>
